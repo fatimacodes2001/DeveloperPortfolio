@@ -1,0 +1,65 @@
+@import "./global";
+
+
+.bar{
+    border-bottom: 2px solid black;
+    min-width: 223px;
+    min-height: 60px;
+}
+
+
+
+.navbar-link{
+    padding: 12px 28px;
+    font-size: 1.1em;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo-icon{
+    height: 50px;
+}
+
+.link-text{
+    text-decoration: none;
+
+}
+
+.navbar-link:hover{
+    background-color: $headerHoverBG;
+
+
+}
+
+@media(max-width: 992px){
+    .navbar-link{
+        padding: 10px 14px;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
+}
+
+@media(max-width: 768px){
+
+    .main-nav:nth-child(1){
+        margin-top: 5px;
+
+    }
+
+    .navbar-link{
+        margin: 0;
+        padding: 12px 4px;
+        font-size: 1em;
+        cursor: pointer;
+    }
+
+    .logo-icon{
+        height: 38px;
+    }
+
+    
+
+}
