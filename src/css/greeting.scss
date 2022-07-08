@@ -1,0 +1,197 @@
+.greet{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1em;
+}
+
+.img-div{
+    text-align: center;
+}
+
+.greeting-main{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.pfp{
+    width: 90%;
+    height: auto;
+    border: .3rem solid black;
+    border-radius: 50%;
+}
+
+.greeting-head{
+    font-size: 1.8em;
+}
+
+.greeting-sub{
+    font-size: 1em;
+}
+
+.greeting-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9em;
+    justify-content: center;
+}
+
+.greeting-button{
+    outline: none;
+    background-color: purple;
+    color: white;
+    display: inline-block;
+    border:none;
+    padding: 8px 14px;
+    border-radius: 0.5em;
+    white-space: nowrap;
+    width: 90%;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+}
+
+.greeting-button:nth-child(1){
+    margin-bottom: 8px;
+}
+
+.greeting-button:hover{
+    background-color: white;
+    color: purple;
+    border-color: purple;
+
+}
+
+
+.wave-emoji {
+    animation-duration: 1.8s;
+    animation-iteration-count: infinite;
+    animation-name: wave;
+    display: inline-block;
+    transform-origin: 70% 70%;
+  }
+  
+  @keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(-10deg);
+    }
+    20% {
+      transform: rotate(12deg);
+    }
+    30% {
+      transform: rotate(-10deg);
+    }
+    40% {
+      transform: rotate(9deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+@media (min-width: 768px){
+    .pfp{
+        max-width: 600px;
+        
+    }
+
+    .greet{
+        flex-direction: row;
+        height: 90vh;
+        align-items: center;
+    }
+
+    .img-div{
+        flex-basis: 40%;
+        padding: 1%;
+    }
+
+    .greeting-main{
+        flex-basis: 60%;
+        padding: 2%;
+        text-align: left;
+    }
+
+    .greeting-head{
+        font-size: 3.5em;
+    }
+
+    .greeting-sub{
+        font-size: 1.2em;
+
+    }
+
+    .greeting-buttons{
+        flex-direction: row;
+        justify-content: flex-start;
+        font-size: 1.2em;
+    }
+
+    .greeting-button{
+        width: max-content;
+        padding: 7px 40px;
+    }
+
+    .greeting-button:nth-child(1){
+        margin-bottom:0;
+        margin-right: 10px;
+    }
+
+}
+
+@media(max-width:992px) and (min-width:768px){
+
+    .greeting-head{
+        font-size: 2.5em;
+    }
+
+    .greeting-sub{
+        font-size: 1em;
+
+    }
+
+    .greeting-buttons{
+        font-size: 1em;
+
+    }
+
+    .greeting-button{
+        width: max-content;
+        padding: 5px 20px;
+
+    }
+
+
+
+}
+
+@media(max-width:768px) and (min-width: 370px){
+
+    .pfp{
+        width: 80%;
+        max-width: 370px;
+    }
+
+    .greeting-buttons{
+        flex-direction: row;
+
+    }
+
+    .greeting-button{
+        width: max-content;
+        padding: 5px 25px;
+
+    }
+
+    .greeting-button:nth-child(1){
+        margin-bottom:0;
+        margin-right: 10px;
+    }
+
+}
