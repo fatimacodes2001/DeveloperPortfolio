@@ -15,7 +15,7 @@ export default function Header() {
     return (
         <Navbar collapseOnSelect expand="md" className='bar' >
       <Container fluid>
-      <Navbar.Brand className="brand" href="#home"><img className="logo-icon" src={logo} /></Navbar.Brand>
+      <Navbar.Brand className="brand" href="#home"><img alt="Fatima TZ" className="logo-icon" src={logo} /></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         

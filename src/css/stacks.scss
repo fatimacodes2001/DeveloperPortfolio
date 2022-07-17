@@ -1,0 +1,110 @@
+@import "./global";
+
+
+.dev-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.dev-icon i{
+    font-size: 35px;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    
+}
+
+.dev-icon img{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.html{
+    color: $html;
+}
+
+.node{
+    color: $node;
+}
+
+.docker{
+    color: $docker;
+}
+
+.sass{
+    color: $sass;
+}
+
+.js{
+    color: $js;
+}
+
+.react{
+    color: $react;
+}
+
+.npm{
+    color: $npm;
+}
+
+.aws{
+    color: $aws;
+}
+
+.fire{
+    color: $firebase;
+}
+
+.python{
+    color: $python;
+}
+
+.db{
+    color: $db
+}
+
+@media(min-width: 1010px){
+
+    .dev-icon i{
+        font-size: 50px;
+        padding: 10px;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+    }
+    
+    .dev-icon img{
+        height: 80px;
+        width: 80px;
+        padding: 10px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:1010px){
+
+    .dev-icon i{
+        font-size: 45px;
+        padding: 8px;
+        width: 70px;
+        height: 70px;
+        text-align: center;
+    }
+    
+    .dev-icon img{
+        height: 70px;
+        width: 70px;
+        padding: 8px;
+    }
+
+}
+
+
+
+

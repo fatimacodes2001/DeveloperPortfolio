@@ -21,7 +21,7 @@ export default function Greeting() {
         
       </div>
       <div className='img-div'>
-        <img className='pfp' src={image} alt='Fatima"s Image'/>
+        <img className='pfp' src={image} alt='Fatima'/>
       </div>
       </div>
 

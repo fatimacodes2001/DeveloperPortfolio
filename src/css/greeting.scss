@@ -1,7 +1,12 @@
+@import "./global";
+
+
 .greet{
     display: flex;
     flex-direction: column-reverse;
     padding: 1em;
+     min-height: 90vh;
+
 }
 
 .img-div{
@@ -10,7 +15,7 @@
 
 .greeting-main{
     margin-top: 1em;
-    text-align: center;
+     text-align: center;
 }
 
 .pfp{
@@ -22,10 +27,13 @@
 
 .greeting-head{
     font-size: 1.8em;
+    font-weight: normal;
+
 }
 
 .greeting-sub{
     font-size: 1em;
+    color: $subTitle;
 }
 
 .greeting-buttons{
@@ -98,12 +106,11 @@
 @media (min-width: 768px){
     .pfp{
         max-width: 600px;
-        
+         
     }
 
     .greet{
         flex-direction: row;
-        height: 90vh;
         align-items: center;
     }
 

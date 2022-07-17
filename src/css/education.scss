@@ -1,0 +1,43 @@
+.edu-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .edu-div{
+     min-height: 80vh;
+ }
+
+.edu-div h1{
+    padding-left: 15px;
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: normal;
+
+}
+
+@media(min-width:768px){
+    .edu-div h1{
+        font-size: 3.5em;
+        padding-left: 5%;
+        text-align: left;
+    }
+    .edu-items{
+        padding-left:5%;
+        padding-right: 10%;
+        align-items: flex-start;
+    }
+}
+
+@media(min-width:768px) and (max-width:1100px){
+    .edu-items{
+        padding-left: 3% ;
+        padding-right: 6%;
+    } 
+    .edu-div h1{
+        font-size: 2.5em;
+        
+    }   
+}

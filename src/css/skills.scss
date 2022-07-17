@@ -1,0 +1,79 @@
+@import "./global";
+
+.skills-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 20px;
+    min-height: 80vh;
+  
+}
+
+.skills-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills-head{
+    font-size: 1.8em;
+    font-weight: normal;
+
+
+}
+
+
+.sub{
+    color: $subTitle;
+    font-size: 1em;
+
+}
+
+.animate-div{
+    width: 100%;
+    height: auto;
+    max-width: 580px;
+}
+
+
+
+@media(min-width: 768px){
+    .skills-main{
+        flex-direction: row;
+    }
+
+    .animate-div{
+        flex-basis: 50%;
+        max-width: none;
+    }
+
+    .skills-text{
+        flex-basis: 50%;
+    }
+
+    .skills-head{
+        font-size: 3.5em;
+    
+    }
+    
+    .sub{
+        font-size: 1.2em;
+    }
+
+    
+}
+
+@media(max-width:992px) and (min-width:768px){
+    .skills-head{
+        font-size: 2.5em;
+    
+    }
+    
+    .sub{
+        font-size: 1em;
+    }
+
+}
