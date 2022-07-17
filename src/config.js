@@ -3,7 +3,9 @@ const greeting = {
     username: "Fatima-Tuz-Zehra",
     logo_name: "Fatima TZ",
     title: "Hi Fellas, I am Fatima",
-    detail: "I am a Software Engineer who is passionate about Full Stack Development 🚀, Machine Learning 🤖 and DevOps 💻, having extensive experience in building seamless Web Applications and Machine Learning based solutions using JavaScript, Python, Firebase and other languages and frameworks."
+    detail: "I am a Software Engineer who is passionate about Full Stack Development 🚀, Machine Learning 🤖 and DevOps 💻, having extensive experience in building seamless Web Applications and Machine Learning based solutions using JavaScript, Python, Firebase and other languages and frameworks.",
+    resume_link:"https://drive.google.com/file/d/1D26RiHzq0S2C0tnOSJx6tPCRZlozQsl7/view?usp=sharing",
+    upwork_link:"https://www.upwork.com/freelancers/~01893932e40ae39da9"
 
 }
 

@@ -15,8 +15,8 @@ export default function Greeting() {
         <p className='greeting-sub'>{greeting.detail}</p>
         <SocialMedia />
         <div className='greeting-buttons'>
-          <button className='greeting-button'>HIRE ME</button>
-          <button className='greeting-button'>SEE MY RESUME</button>
+          <a className='greeting-link' href={greeting.upwork_link}><button className='greeting-button'>HIRE ME</button></a>
+          <a className='greeting-link' href={greeting.resume_link}><button className='greeting-button'>SEE MY RESUME</button></a>
         </div>
         
       </div>
