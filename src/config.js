@@ -50,6 +50,30 @@ const education = [
     
 ]
 
+const work = [{
+    name:"PowerWalk",
+    role:"Frontend Developer",
+    date:"June 2021 - October 2021",
+    photo:"powerwalk.png",
+    details:"I was responsible for the development and maintenance of the company website of an EnergyTech start-up named Powerwalk which is housed in NSTP. The website was created using Bootstrap, HTML, CSS and jQuery."
+},
+    {
+        name:"Upwork",
+        role:"Software Developer",
+        date:"June 2021 - Present",
+        photo:"upwork.png",
+        details:"I have been working as a Full Stack Developer and Machine Learning Engineer on Upwork for over a year now. I have worked with the MERN stack, Django, Flask and Keras. I have got 1K USD+ earnings and a 95% Job Success Score."
+    },
+    {
+        name:"TUKL-NUST",
+        role:"Research Intern",
+        date:"June 2020 - August 2021",
+        photo:"nust.png",
+        details: "I took several Machine Learning and Deep Learning relaed courses on Coursera and Udemy and went through some Computer Vision literature. In addition to that, I worked on Satelite Image Classification, Biomedical Image Segmentation and Neural Image Captioning"
+
+    }
+]
+
   
 
-export { greeting, social_media, skills_section, education}
+export { greeting, social_media, skills_section, education, work }

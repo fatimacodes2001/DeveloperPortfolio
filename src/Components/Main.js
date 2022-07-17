@@ -4,6 +4,7 @@ import Header from './Header'
 import Greeting from './Greeting'
 import Skills from './Skills'
 import Education from './Education'
+import WorkExperience from './WorkExperience'
 
 function Main() {
   return (
@@ -12,6 +13,7 @@ function Main() {
     <Greeting />
     < Skills />
     <Education />
+    <WorkExperience />
     </>
   )
 }

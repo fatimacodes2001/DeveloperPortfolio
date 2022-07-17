@@ -6,7 +6,7 @@ import "../css/education.scss"
 
 function Education() {
   return (
-    <Fade left duration={1000} distance="40px">
+    <Fade left duration={1000} distance="200px">
 
   <div className='edu-div' id="education">
     <h1>Education</h1>
