@@ -109,6 +109,6 @@ const projects = [
     }
 ]
 
-  
+const github_link = "https://github.com/fatimacodes2001"
 
-export { greeting, social_media, skills_section, education, work, projects }
+export { greeting, social_media, skills_section, education, work, projects, github_link }

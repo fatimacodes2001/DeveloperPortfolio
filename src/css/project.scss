@@ -9,6 +9,7 @@
     margin-top: 30px;
     min-height: 80vh;
     width: 100%;
+    margin-bottom: 30px;
 }
 .projects{
     display: flex;
@@ -21,6 +22,9 @@
 
 .project-main h1{
     text-align: center ;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: normal;
 }
 
 .project-item{
@@ -53,6 +57,18 @@
     transition: 0.1 box-shadow ease-in;
 }
 
+.more-projects{
+    outline: none;
+    border: none;
+    color: white;
+    background-color: purple;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    padding: 7px 40px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
 @media(min-width:768px){
     .projects{
         flex-direction: row;
@@ -64,6 +80,12 @@
         flex-basis: 31.11%;
         margin-left: 3.33%;
 
+    }
+    .project-main h1{
+        text-align: left ;
+        width: 100%;
+        margin-left: 10%;
+        font-size: 3.5em;
     }
 
     
@@ -86,6 +108,10 @@
 
     .project-item:nth-child(2n-1){
         margin-left: 0;
+    }
+
+    .project-main h1{
+        font-size: 2.5em;
     }
 
     

@@ -4,7 +4,7 @@ import "../css/project.scss"
 export default function Projects(props) {
 
     function projectOnClick(){
-        console.log("Clicked")
+       window.open(props.link, "_blank")
     }
   return (
     <div className='project-item' onClick={projectOnClick}>
