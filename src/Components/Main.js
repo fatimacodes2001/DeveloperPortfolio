@@ -5,15 +5,19 @@ import Greeting from './Greeting'
 import Skills from './Skills'
 import Education from './Education'
 import WorkExperience from './WorkExperience'
+import Projects from './Projects'
+import Footer from './Footer'
 
 function Main() {
   return (
     <>
     <Header />
     <Greeting />
-    < Skills />
-    <Education />
+    <Skills />
     <WorkExperience />
+    <Education />
+     <Projects />
+    <Footer />
     </>
   )
 }

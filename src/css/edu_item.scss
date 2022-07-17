@@ -59,6 +59,10 @@
     font-weight: 350;
 }
 
+.edu-text{
+    margin-top: 3%;
+}
+
 .edu-component li{
     color: $subTitle;
 }
@@ -84,6 +88,7 @@
     .edu-text{
         padding-left: 15px;
         flex-basis: 88%;
+        margin-top: 0;
     }
 
     .edu-img-div{

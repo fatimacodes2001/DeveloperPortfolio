@@ -3,23 +3,17 @@ import '../css/work.scss'
 import { work } from "../config.js"
 import Fade from 'react-reveal'
 import WorkItem from './WorkItem'
+import useResize from "../Hooks/Resize"
 
 
 export default function WorkExperience() {
+    const { initResize } = useResize();
 
-    useEffect(()=>{
-        let columns = document.querySelectorAll(".work-main-item")
-        let colArr = Array.from(columns)
-        colArr = colArr.map(item => item.clientHeight)
 
-        let maxHeight = Math.max(...colArr)
-        for(var column of columns){
-            console.log(column.style.height);
-            column.style.height = `${maxHeight}px`;
-            
-        }
-
-    },[])
+    useEffect(() => {
+        initResize(".work-main-item");
+       },[])
+    
 
 
   return (

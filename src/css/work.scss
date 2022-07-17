@@ -1,3 +1,6 @@
+@import "./global";
+
+
 .work-main{
     min-height: 80vh;
     margin-top: 30px;
@@ -20,19 +23,6 @@
     background-color: #F5F5F5;
 }
 
-/*.work-main-item{
-    display: flex;
-    border-radius: 12px;
-    overflow: hidden;
-    flex-direction: column;
-    width: 90%;
-    height: 70vh;
-    margin-top: 15px;
-    border: 1px solid hsla(0,0%,82.7%,.397);
-    box-shadow: 0 10px 30px -15px rgb(0 0 0 / 20%);
-    text-align: center;
-    
-}**/
 
 .work-main-item{
     display: flex;
@@ -60,7 +50,7 @@
     flex-grow: 1;
     text-align: center;
     font-weight: normal;
-
+    
 }
 
 .company-img{
@@ -90,6 +80,12 @@
     position: relative;
     top: 38px;
     font-size: 20px;
+}
+
+.work-details{
+    color: $subTitle;
+    margin-top: 3%;
+    
 }
 
 @media(min-width:768px){

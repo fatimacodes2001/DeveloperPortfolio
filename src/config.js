@@ -74,6 +74,41 @@ const work = [{
     }
 ]
 
+const projects = [
+    {
+        name:"NUST Polls",
+        details:"NUST Polls is an online polling application developed using the MERN stack that is used to generate polls for targetted audience. It uses the RESTFul and MVC architectures and also uses Passport.js for authentication.",
+        link:"https://github.com/fatimacodes2001/nust-polls-frontend"
+    },
+    {
+        name:"Netflix Clone",
+        details:"A fully responsive clone of the Netfix user interface developed using React. It doesnot have a server side and fetches data from an API provided by IMDB.",
+        link:"https://github.com/fatimacodes2001/NetflixClone"
+    },
+    { 
+        name:"Pet Adoption",
+        details:"A Pet Adoption application developed using React and Hooks that allows users to search pets and adopt them. ",
+        link:"https://github.com/fatimacodes2001/PetAdoptionApp"
+    },
+    {
+        name:"Techtonic",
+        details:"A voguish purchasing platform developed using Bootstrap and Laravel that has all the features of a modern e-commerce application. It uses the MVC architecture.",
+        link:"https://github.com/fatimacodes2001/Techtonic"
+
+    },
+    {
+        name:"Konnect Me",
+        details:"Konnect Me is a social networking site developed using Django, HTML and CSS that connects clients with workers across the globe and enables workers to showcase their skills",
+        link:"https://github.com/fatimacodes2001/KonnectMe"
+
+    },
+    {
+        name:"Neural Image Captioning",
+        details:"An Image Captioning model trained on the Flickr8k dataset that automatically generates a caption given an image. It used many modern NLP techniques.",
+        link:"https://github.com/fatimacodes2001/Neural-Image-Captioning"
+    }
+]
+
   
 
-export { greeting, social_media, skills_section, education, work }
+export { greeting, social_media, skills_section, education, work, projects }

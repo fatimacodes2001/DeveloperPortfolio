@@ -1,4 +1,4 @@
-import React, { Component, Suspense, useEffect } from 'react'
+import React, { useEffect } from 'react'
 import lottie from "lottie-web";
 
 
